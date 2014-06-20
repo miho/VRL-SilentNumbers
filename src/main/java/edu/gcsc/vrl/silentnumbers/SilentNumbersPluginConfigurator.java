@@ -35,7 +35,7 @@ public class SilentNumbersPluginConfigurator extends VPluginConfigurator {
                 "www.you.com", "License Name", "License Text...");
 
        // specify dependencies
-        addDependency(new PluginDependency("VRL", "0.4.8.6", "0.4.x"));
+        addDependency(new PluginDependency("VRL", "0.4.2.8.6", "0.4.x"));
         
         // always enable this plugin
         setAutomaticallySelected(true);
