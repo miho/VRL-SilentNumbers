@@ -6,6 +6,7 @@ package edu.gcsc.vrl.silentnumbers;
 
 import eu.mihosoft.vrl.system.InitPluginAPI;
 import eu.mihosoft.vrl.system.PluginAPI;
+import eu.mihosoft.vrl.system.PluginDependency;
 import eu.mihosoft.vrl.system.PluginIdentifier;
 import eu.mihosoft.vrl.system.VPluginAPI;
 import eu.mihosoft.vrl.system.VPluginConfigurator;
@@ -34,7 +35,7 @@ public class SilentNumbersPluginConfigurator extends VPluginConfigurator {
                 "www.you.com", "License Name", "License Text...");
 
        // specify dependencies
-        // addDependency(new PluginDependency("VRL", "0.4.0", "0.4.0"));
+        addDependency(new PluginDependency("VRL", "0.4.8.6", "0.4.x"));
         
         // always enable this plugin
         setAutomaticallySelected(true);
